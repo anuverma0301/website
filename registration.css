@@ -1,0 +1,72 @@
+body{
+	background-image: url(guitar.jpg);
+	background-repeat: no-repeat;
+background-size: cover;
+background-position: absolute:;
+
+
+}
+.form{
+  text-align: center;
+  margin: 20px 0px;
+ 
+ 
+}
+
+#register{
+	width: 50%;
+	
+	opacity: 1.0;
+	padding: 75px 10px;
+}
+#button{
+	width: 250px;
+	padding: 9px;
+	border-radius: 5px;
+	outline: 0px;
+
+}
+#ph{
+	width: 50px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#phone{
+	width: 190px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#rd{
+  
+}
+#but{
+	color: yellow;
+	font-size: 18px;
+}
+#butt{
+	width: 270px;
+	padding: 9px;
+	border-radius: 5px;
+	outline: 0px;
+	background-color: #0c6996;
+	font-weight: bold;
+	border:2px solid #01010c;
+	color: black;
+	font size: 18px;
+
+
+}
+h2{
+	margin: 0;
+	padding: 0;
+    color: #c9b846;
+    position: absolute;
+    width: 53%;
+    margin-right: 10px;
+    font-size: 35px;
+    font-family: algerian;
+
+}
+
