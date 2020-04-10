@@ -1,0 +1,82 @@
+body{
+	background:  #825666;
+	margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial;
+}
+.cards{
+	width: 40%;
+	padding: 80px;
+	line-height: 70px;
+	border-radius: 5px;
+	margin-top:60px;
+	margin-left: 60px;
+	display:inline-block;
+	position: relative;
+	
+}
+.heading{
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+	margin-top: -80px;
+}
+.about{
+	text-align: center;
+	padding: 5px;
+}
+
+
+
+.cards1{
+	float: right;
+	width: 25%;
+	line-height: 70%;
+	padding: 2px;
+	margin-top: 80px;
+	margin-right: 80px;
+	border-radius: 5px;
+	position: relative;
+}
+.image:hover{
+	box-shadow: 5px 5px 8px black;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+}
+.image img{
+	width: 100%;
+	border-radius: 5px;
+	max-width: 100%;
+}
+.cards2{
+	display: inline-block;
+	width: 26%;
+	line-height: 70%;
+	margin-top:70px;
+	margin: 40px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	position: relative;
+}
+.imag img{
+	width: 100%;
+	border-radius: 5px;
+	height: 250px;
+	max-width: 100%;
+}
+.imag:hover{
+	box-shadow: 5px 5px 8px black;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+	.main{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin: 1rem;
+	}
+}
